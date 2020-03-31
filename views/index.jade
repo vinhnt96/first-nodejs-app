@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div(class= "header")
+    h1 Hello
+    p Welcome to my first nodejs app!
+  .form.row.m-0.p-0
+    include form
